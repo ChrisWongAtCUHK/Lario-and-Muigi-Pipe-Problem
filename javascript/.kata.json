@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "name": "Hard Time Bomb",
+  "slug": "hard-time-bomb",
+  "href": "/kata/hard-time-bomb",
+  "description": "A bomb has been set to go off! You have to find the wire and cut it in order to stop the timer.  There is a global `var` that holds the numeric ID to which wire to cut. Find that and then you can Bomb.CutTheWire(wireKey);\n\n",
+  "author": null,
+  "rank": -3,
+  "averageCompletion": 77826.21759194217,
+  "tags": [
+    "Puzzles",
+    "Polymorphism",
+    "Object-oriented Programming",
+    "Prototype-based Programming",
+    "Programming Paradigms",
+    "Security"
+  ],
+  "session": {
+    "projectId": "587e24f798934062fd000211",
+    "solutionId": "587e24f798934062fd000213",
+    "setup": "var wireCode; // Find the wire.\nBomb.CutTheWire(wireCode);",
+    "exampleFixture": "Test.expect(true, console.log('Time is Ticking!'));\nBomb.Explode();",
+    "code": null
+  }
+}
